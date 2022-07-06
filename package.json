@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "bootstrap": "^5.2.0-beta1"
-  }
+  },
+  "name": "karma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucioMarlatto/JsCoder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucioMarlatto/JsCoder/issues"
+  },
+  "homepage": "https://github.com/LucioMarlatto/JsCoder#readme",
+  "description": ""
 }
